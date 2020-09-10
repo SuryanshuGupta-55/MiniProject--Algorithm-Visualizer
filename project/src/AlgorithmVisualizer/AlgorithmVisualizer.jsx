@@ -21,6 +21,7 @@ export default class SortingVisualizer extends React.Component {
     }
     this.setState({arr});
   }
+  
   render() {
     const {arr} = this.state;
   return (
